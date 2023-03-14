@@ -1,0 +1,37 @@
+.containerSkills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 564px;
+    max-height: auto;
+    background-color: black;
+}
+.Title{
+font-size: 1.5rem;
+color: white;
+margin-left: -8rem;
+font-weight: bold;
+margin-top: 4rem;
+text-align: end;
+width: 100%;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 4rem;
+}
+.imgIcon{
+    width: 8rem;
+    height: 8rem;
+}
+
+.skill{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}

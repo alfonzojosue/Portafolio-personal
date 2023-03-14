@@ -1,0 +1,99 @@
+.container{
+    background-color: black;
+    width: 100%;
+    height: 564px;
+    display: flex;
+
+}
+.containerTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: start;
+  position: relative;
+  overflow: hidden;
+  margin-left: 4rem;
+}
+.title{
+
+font-size: 2.5rem;
+color: white;
+letter-spacing: 2px;
+text-shadow: 2px 2px 2px white,
+2px 4px 2px  #010102
+}
+
+.menu a span:first-child {
+  display: inline-block;
+  padding: 10px;
+}
+.menu a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.menu a span h1{
+font-size: 2.5rem;
+color: white;
+letter-spacing: 2px;
+text-shadow: 2px 2px 2px white,
+2px 4px 2px  #010102
+}
+.menu a span:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  transform: translateY(-100%);
+}
+
+.menu a span {
+  transition: transform 0.5s ease-out;
+}
+.menu a:hover span:first-child {
+  transform: translateY(100%);
+}
+.menu a:hover span:last-child {
+  transform: none;
+}
+.menu[data-animation="to-top"] a span:last-child {
+  transform: translateY(100%);
+}
+.menu[data-animation="to-top"] a:hover span:first-child {
+  transform: translateY(-100%);
+}
+.containerPhoto{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
+}
+.photo{
+  height: 30rem;
+  width: 30rem;
+  margin-right: 4rem;
+}
+
+@media (max-width: 450px) {
+  .menu a span:first-child {
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .containerPhoto{
+    display: none;
+  }
+  .menu a span:first-child {
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-top: 30px;
+  }
+}
+
+

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "HTML",
+        "img": "https://i.ibb.co/SssdBRy/html.png"
+    },
+    {
+        "name": "CSS",
+        "img": "https://i.ibb.co/GFNxW6j/css.png"
+    },
+    {
+        "name": "JavaScript",
+        "img": "https://i.ibb.co/9bxdyTZ/js.png"
+    },
+    {
+        "name": "ReactJs",
+        "img": "https://i.ibb.co/LYGKBxy/react.png"
+    },
+    {
+        "name": "Redux",
+        "img": "https://i.ibb.co/GFKkBV5/redux.png"
+    },
+    {
+        "name": "NodeJs",
+        "img": "https://i.ibb.co/Y3jsyFQ/node.png"
+    },
+    {
+        "name": "Express",
+        "img": "https://i.ibb.co/H2hXSNL/express.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "img": "https://i.ibb.co/XV89q1K/postgre.png"
+    },
+    {
+        "name": "Git",
+        "img": "https://i.ibb.co/VCGSWQ7/git.png"
+    }
+]
