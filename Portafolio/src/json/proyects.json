@@ -1,30 +1,48 @@
 [
     {
         "name": "DogBook",
-        "text": "",
+        "text": "A landing page with a button that redirects you to the home page where you will have several cards of dog breeds with an image and information, has filters, sorting, a search input by name and pagination, clicking on the image of a dog redirects you to the detail where the remaining information is displayed, also has a creation form where you can create a dog.",
         "img": [
             "https://media.licdn.com/dms/image/C562DAQG6kv55vEJHxg/profile-treasury-image-shrink_800_800/0/1676494611769?e=1679360400&v=beta&t=DGP-JkV2Si1kNydZZuQIdlO6TSL3OsF-HqzlW6U_-p8",
-            ""
-        ]
+            "https://i.ibb.co/jwZLWKG/Captura-de-pantalla-2023-03-14-093027.png",
+            "https://i.ibb.co/mNTVxPZ/Captura-de-pantalla-2023-03-14-092854.png",
+            "https://i.ibb.co/gjy6RcP/Captura-de-pantalla-2023-03-14-100926.png"
+        ],
+        "linkDeploy": "https://pi-dogs-one-phi.vercel.app/",
+        "linkGithub": "https://github.com/alfonzojosue/PI-Dogs"
 
     },
     {
         "name": "Vibes",
-        "text": "",
-        "img": [""]
+        "text": "E-commerce of clothing. It has a user register and login, a home page where you can see the products, a cart to add products to buy, payment gateway, a user profile where you can edit your information, an administrator dashboard, among other features.",
+        "img": [
+            "https://i.ibb.co/mt4mKHf/Captura-de-pantalla-2023-03-14-095835.png",
+            "https://i.ibb.co/4MmJdvH/Captura-de-pantalla-2023-03-14-095915.png",
+            "https://i.ibb.co/60x2mbJ/Captura-de-pantalla-2023-03-14-100851.png",
+            "https://i.ibb.co/G5sgLF0/Captura-de-pantalla-20230215-033333.png"
+        ],
+        "linkDeploy": "https://proyecto-final-vibes.vercel.app/",
+        "linkGithub": "https://github.com/dmc2m4/VIBE"
 
     },
     {
         "name": "E-comerce Platzi",
-        "text": "",
-        "img": []
-
+        "text": "A web application created with React and using Webpack as a packager. Only the home view. This activity was done through a Platzi course.",
+        "img": [
+            "https://i.ibb.co/Dgjv4Kt/Captura-de-pantalla-2023-03-14-112530.png",
+            "https://i.ibb.co/BP0fwBx/Captura-de-pantalla-2023-03-14-112636.png"
+        ],
+        "linkGithub": "https://github.com/alfonzojosue/React-I"
     },
     {
-        "name": "Batatabit",
-        "text": "",
-        "img": []
-
+        "name": "Batatabyte",
+        "text": "HTML and CSS structure of a mobile cryptocurrency application. This activity was done through a Platzi course.",
+        "img": [
+            "https://i.ibb.co/CwSH73b/Captura-de-pantalla-2023-03-14-113729.png",
+            "https://i.ibb.co/VQycZZn/Captura-de-pantalla-2023-03-14-113746.png",
+            "https://i.ibb.co/hsZHScP/Captura-de-pantalla-2023-03-14-113803.png"
+        ],
+        "linkGithub": "https://github.com/alfonzojosue/Batatabyte"
     }
 
 ]

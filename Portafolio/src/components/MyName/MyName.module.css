@@ -40,6 +40,17 @@ letter-spacing: 2px;
 text-shadow: 2px 2px 2px white,
 2px 4px 2px  #010102
 }
+.containerIconNetwork{
+  display: flex;
+  justify-content: start;
+
+}
+
+.iconNetwork{
+  width: 3rem;
+  height: 3rem;
+  margin: 2rem;
+}
 .menu a span:last-child {
   position: absolute;
   top: 0;
@@ -69,12 +80,16 @@ text-shadow: 2px 2px 2px white,
   display: flex;
   justify-content: center;
   align-items: end;
-  
+  position: relative;
 }
 .photo{
   height: 30rem;
   width: 30rem;
   margin-right: 4rem;
+}
+.backgroundPhoto{
+  position: absolute;
+  right: 160px;
 }
 
 @media (max-width: 450px) {
@@ -84,6 +99,17 @@ text-shadow: 2px 2px 2px white,
     padding-top: 30px;
   }
 }
+
+@media (max-width: 110px) {
+  
+  .menu a span:first-child {
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-top: 30px;
+  }
+  
+}
+
 
 @media (max-width: 1000px) {
   .containerPhoto{
