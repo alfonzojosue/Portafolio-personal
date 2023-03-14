@@ -14,9 +14,21 @@
     cursor: pointer;
 }
 
+.containerLi{
+    background-color: white;
+}
 .list{
+background-color: white;
 color: white;
 }
 .listNone{
     display: none;
+}
+.menu{
+    position: relative;
+    height: 100vh;
+    width: 300px;
+    z-index: 1000;
+    background-color: white;
+    border-top: 1px solid rgb(209, 206, 206);
 }

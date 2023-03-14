@@ -26,15 +26,13 @@ const handleOutsideClick = (event) => {
 console.log(isActive)
 
 return (
-    <div className="dropdownRef"  ref={dropdownRef}>
+    <div className={style.dropdownRef}ref={dropdownRef}>
     <button className={style.Button}  onClick={handleDropdownToggle}>
         <img src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png" className={style.imgButton}/>
     </button>
-    <ul className={isActive ? style.list : style.listNone}>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
+    <div className={isActive ? style.list : style.listNone}>
+    <div className={style.menu}></div>
+    </div>
     </div>
 );
 }

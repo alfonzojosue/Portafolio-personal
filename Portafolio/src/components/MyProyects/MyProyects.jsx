@@ -10,7 +10,9 @@ const MyProyects = () => {
   return (
     <div className={style.container}>
         <div className={style.title}>
+        <Fade>
             <h2>My proyects</h2>
+            </Fade>
         </div>
         <div className={style.containerPricipal}>
           {proyect.map(e => {
@@ -28,7 +30,6 @@ const MyProyects = () => {
                     <a href={e.linkGithub}><img src={github} className={style.icon}/></a>
                     <a href={e.linkDeploy}><img src={file} className={style.icon}/></a>
                   </div>
-                
               </div>
               </Fade>
             )
