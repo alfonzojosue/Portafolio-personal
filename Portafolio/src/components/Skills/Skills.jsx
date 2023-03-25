@@ -7,6 +7,9 @@ const Skills = () => {
     console.log(obj.map(element => element.img))
   return (
     <div className={style.containerSkills}>
+    <div className={style.stars1}></div>
+    <div className={style.stars2}></div>
+    <div className={style.stars3}></div>
         <div className={style.Title}>
         <Fade direction='right' duration={500}>
         <h2>Skills</h2>
