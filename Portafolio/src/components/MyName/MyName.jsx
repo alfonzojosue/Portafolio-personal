@@ -12,6 +12,9 @@ import portfolio from '../../assets/portfolioWhite.png'
 const MyName = () => {
   return (
     <div className={style.container}>
+    <div className={style.stars1}></div>
+    <div className={style.stars2}></div>
+    <div className={style.stars3}></div>
     <div className={style.containerTitle}>
 
       <h1 className={style.title}>Hello!!, I'm</h1>

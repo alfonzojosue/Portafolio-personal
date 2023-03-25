@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
 html{
   box-sizing: border-box;
-  
 }
 @font-face {
   font-family: 'Proxima Nova';
@@ -17,4 +16,5 @@ li{
 }
 body{
   font-family: 'Proxima Nova', Arial, Tahoma, PingFangSC, sans-serif;
+  cursor: url('./assets//puntero.png'), auto;
 }

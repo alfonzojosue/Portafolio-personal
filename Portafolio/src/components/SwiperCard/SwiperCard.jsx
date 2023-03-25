@@ -14,6 +14,7 @@ return (
     pagination={{
         clickable: true,
     }}
+    autoplay
     navigation={{
         nextEl: ".image-swiper-button-next",
         prevEl: ".image-swiper-button-prev",

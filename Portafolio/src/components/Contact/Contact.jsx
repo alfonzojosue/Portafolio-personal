@@ -22,6 +22,9 @@ const Contact = () => {
     }
     return (
         <div className={style.container}>
+        <div className={style.stars1}></div>
+    <div className={style.stars2}></div>
+    <div className={style.stars3}></div>
         <Fade><div className={style.containerTitle}><h2>Contact</h2></div></Fade>
         <Fade duration={3000}><form onSubmit={handleSubmit} className={style.containerForm}>
         <div className={style.containerLabel}>
