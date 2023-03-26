@@ -7,7 +7,7 @@ const Navbar = () => {
 return (
 
     <nav className={style.navbar}>
-     <ButtonMenu/>
+    
     </nav>
 )
 }
