@@ -16,6 +16,10 @@
         "img": "https://i.ibb.co/LYGKBxy/react.png"
     },
     {
+        "name": "Angular",
+        "img": "https://i.ibb.co/3NfjKDJ/Angular.png"
+    },
+    {
         "name": "Redux",
         "img": "https://i.ibb.co/GFKkBV5/redux.png"
     },
@@ -35,4 +39,5 @@
         "name": "Git",
         "img": "https://i.ibb.co/VCGSWQ7/git.png"
     }
+
 ]
