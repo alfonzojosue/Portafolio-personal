@@ -11,7 +11,7 @@ const Skills = () => {
     <div className={style.stars2}></div>
     <div className={style.stars3}></div>
         <div className={style.Title}>
-        <Fade direction='right' duration={500}>
+        <Fade direction='right' duration={500} triggerOnce={true}>
         <h2>Skills</h2>
         </Fade>
         </div>

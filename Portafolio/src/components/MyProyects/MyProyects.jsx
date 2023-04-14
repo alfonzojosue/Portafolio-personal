@@ -10,7 +10,7 @@ const MyProyects = () => {
   return (
     <div className={style.container}>
         <div className={style.title}>
-        <Fade>
+        <Fade triggerOnce={true}>
             <h2>My proyects</h2>
             </Fade>
         </div>

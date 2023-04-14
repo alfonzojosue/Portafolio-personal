@@ -83,10 +83,14 @@ width: 100%;
 }
 
 
-@media (min-width: 360px) and (max-width: 860px) {
+@media (min-width: 200px) and (max-width: 860px) {
     .gridContainer{
         display: flex;
         flex-wrap: wrap;
+    }
+    .imgIcon{
+        width: 6rem;
+        height: 6rem;
     }
   }
 

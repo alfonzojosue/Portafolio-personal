@@ -7,7 +7,7 @@ import {Slide} from "react-awesome-reveal";
 const AboutFirts = () => {
   return (
     <div className={style.containerAbout}>
-       <Slide direction='right'>
+       <Slide direction='right' triggerOnce={true}>
      <div className={style.containerText}>
     <p>
    I have experience in web development using technologies

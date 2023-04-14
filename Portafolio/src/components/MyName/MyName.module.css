@@ -96,11 +96,21 @@ text-shadow: 2px 2px 2px white,
   right: 160px;
 }
 
-@media (max-width: 450px) {
+@media (min-width: 200px) and (max-width:450px) {
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
   .menu a span:first-child {
     display: inline-block;
     padding-bottom: 25px;
     padding-top: 30px;
+  }
+  .containerTitle{
+    margin: 0
   }
 }
 

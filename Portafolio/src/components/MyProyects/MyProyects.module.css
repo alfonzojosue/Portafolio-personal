@@ -23,10 +23,11 @@
     height: 260px;
 }
 .containerProyect{
-    min-width: 360px;
+   min-width: 320px;
     max-width: 400px;
-    height: 550px;
-    margin: 4rem;
+    height: auto;
+    margin-top: 4rem;
+   margin-bottom: 4rem;
     border-radius: 5px;
     border: 1px solid rgb(185, 182, 182);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -52,3 +53,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 200px) and (max-width: 420px) {
+    .containerProyect{
+        width: 100%;
+    }
+  }
