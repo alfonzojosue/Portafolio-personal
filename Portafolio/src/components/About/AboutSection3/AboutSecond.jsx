@@ -7,10 +7,10 @@ import {Slide} from "react-awesome-reveal";
 const AboutSecond = () => {
   return (
     <div className={style.containerAbout}>
-    <div>
+    <div className={style.containerImg}>
     <img src={digital} alt="digital" className={style.workImg}/>
     </div>
-    <Slide >
+    <Slide className={``} >
     <div className={style.containerText}>
     <p>
     I am a proactive person and I am always looking for ways to improve my skills and knowledge.

@@ -29,3 +29,11 @@ font-weight: bold;
 .workImg{
     height: 20rem;
 }
+@media (min-width: 360px) and (max-width: 860px) {
+    .containerImg{
+        display: none;
+    }
+
+  }
+
+

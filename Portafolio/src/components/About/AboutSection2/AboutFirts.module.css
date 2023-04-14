@@ -22,3 +22,9 @@
 .workImg{
     height: 20rem;
 }
+
+@media (min-width: 200px) and (max-width: 860px) {
+    .containerImg{
+        display: none;
+    }
+  }

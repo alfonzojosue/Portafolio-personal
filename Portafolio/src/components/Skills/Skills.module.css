@@ -83,3 +83,10 @@ width: 100%;
 }
 
 
+@media (min-width: 360px) and (max-width: 860px) {
+    .gridContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+

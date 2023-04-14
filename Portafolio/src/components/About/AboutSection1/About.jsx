@@ -13,8 +13,9 @@ const About = () => {
             </Slide>
         </div>
         <div className={style.containerAbout}>
-            <div><img src={work} alt="work" className={style.workImg}/></div>
-           <Fade>
+            <div className={style.containerImg}><img src={work} alt="work" className={style.workImg}/></div>
+        
+           <Fade className={style.fade}>
             <div className={style.containerText}>
             <p>
             Hello! I'm a Full Stack Developer Jr.

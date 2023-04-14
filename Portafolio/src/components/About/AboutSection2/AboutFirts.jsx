@@ -16,7 +16,7 @@ I have also worked with databases such as PostgreSQL.
     </p>
     </div>
     </Slide>
-    <div><img src={pc} alt="pc" className={style.workImg}/></div>
+    <div className={style.containerImg}><img src={pc} alt="pc" className={style.workImg}/></div>
 
    
   
