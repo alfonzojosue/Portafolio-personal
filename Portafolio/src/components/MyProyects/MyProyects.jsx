@@ -17,7 +17,7 @@ const MyProyects = () => {
         <div className={style.containerPricipal}>
           {proyect.map(e => {
             return (
-              <Fade>
+              <Fade triggerOnce={true}>
               <div className={style.containerProyect}>
                 <div className={style.containerSwiper}>
                 <SwiperCard props={e.img}/>

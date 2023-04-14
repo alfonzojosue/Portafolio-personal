@@ -38,7 +38,7 @@ const MyName = () => {
 </div>
 <div className={style.containerPhoto}>
 <img src='https://i.pinimg.com/originals/b3/7f/66/b37f6621f0fc863af8c8db13020b5d8f.gif' className={style.backgroundPhoto}/>
-<Slide direction='right' cascade className={style.Slide}>
+<Slide direction='right' cascade className={style.Slide} triggerOnce={true}>
  
   <img src={photo} className={style.photo}/>
   </Slide>

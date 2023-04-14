@@ -33,7 +33,9 @@ font-weight: bold;
     .containerImg{
         display: none;
     }
-
+    .fade{
+        animation-duration: 0;
+    }
   }
 
 

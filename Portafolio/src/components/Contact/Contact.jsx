@@ -12,8 +12,8 @@ const Contact = () => {
     if (state.succeeded) {
         return (
             <div className={style.container}>
-            <Fade><div className={style.containerTitle}><h2>Contact</h2></div></Fade>
-            <Fade duration={3000}><div className={style.succes}>
+            <Fade triggerOnce={true}><div className={style.containerTitle}><h2>Contact</h2></div></Fade>
+            <Fade triggerOnce={true} duration={3000}><div className={style.succes}>
       <h2>Your message has been sent successfully.</h2>
       <img src={email} className={style.iconSucces}/>
         </div></Fade>
@@ -25,8 +25,8 @@ const Contact = () => {
         <div className={style.stars1}></div>
     <div className={style.stars2}></div>
     <div className={style.stars3}></div>
-        <Fade><div className={style.containerTitle}><h2>Contact</h2></div></Fade>
-        <Fade duration={3000}><form onSubmit={handleSubmit} className={style.containerForm}>
+        <Fade triggerOnce={true}><div className={style.containerTitle}><h2>Contact</h2></div></Fade>
+        <Fade duration={3000} triggerOnce={true}><form onSubmit={handleSubmit} className={style.containerForm}>
         <div className={style.containerLabel}>
         <img src={email} className={style.iconEmail}/>
         <label htmlFor="email" className={style.label}>

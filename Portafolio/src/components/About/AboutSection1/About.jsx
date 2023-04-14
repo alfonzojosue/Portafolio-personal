@@ -15,7 +15,7 @@ const About = () => {
         <div className={style.containerAbout}>
             <div className={style.containerImg}><img src={work} alt="work" className={style.workImg}/></div>
         
-           <Fade className={style.fade}>
+           <Fade triggerOnce={true}>
             <div className={style.containerText}>
             <p>
             Hello! I'm a Full Stack Developer Jr.
