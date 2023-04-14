@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
         <div className={style.Title}>
-          <Slide direction='right'>
+          <Slide direction='right' triggerOnce={true}>
             <h2>About me</h2>
             </Slide>
         </div>

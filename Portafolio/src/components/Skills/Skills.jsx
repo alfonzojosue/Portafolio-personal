@@ -19,7 +19,7 @@ const Skills = () => {
         <div className={style.gridContainer}>
             {obj.map(element => {
               return (
-                <Fade duration={3000} key={element.name}>
+                <Fade duration={3000} key={element.name} triggerOnce={true}>
                 <div className={style.skill}>
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
                 <img src={element.img} className={style.imgIcon}/>
