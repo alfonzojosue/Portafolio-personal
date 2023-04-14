@@ -87,6 +87,8 @@ width: 100%;
     .gridContainer{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .imgIcon{
         width: 6rem;
