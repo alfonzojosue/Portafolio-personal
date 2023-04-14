@@ -59,3 +59,10 @@
         width: 100%;
     }
   }
+
+  @media (min-width: 800px)  {
+    .containerProyect{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+  }
